@@ -1,0 +1,23 @@
+{
+  "name": "BerlinClock",
+  "version": "1.0.0",
+  "description": "https://www.codewars.com/kata/5a1463678ba9145a670000f9",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll --coverage --verbose",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  }
+}
